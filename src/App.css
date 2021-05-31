@@ -1,38 +1,78 @@
-.App {
+@import url(https://fonts.googleapis.com/css?family=Gothic+A1:100,200,300,regular,500,600,700,800,900);
+*{
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+.showcase-top{
+  height: 100vh;
+    background-color: #000;
+    padding-top: 10rem;
+    height: 100%;
+}
+
+
+.kojima{
+  display: block;
+}
+.kojima img{
+  width: 100%;
+
+  display: block;
+}
+.banner-text{
+  /* display: absolute; */
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
+  color: #fff;
+  /* top: 1rem; */
+  z-index: 2;
+  background-color: #000;
+  font-family: 'Gothic A1',serif;
+  font-weight: 300;
+  letter-spacing: 0.3rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.shadow{}
+.baby-image{
+  /* width: 80% !important; */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.image-container{
+  height: 40rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
 }
-
-.App-link {
-  color: #61dafb;
+.baby{
+ box-shadow: 2px -3px 19px 37px rgba(0,0,0,0.83) inset;
+-webkit-box-shadow: 2px -3px 19px 37px rgba(0,0,0,0.83) inset;
+-moz-box-shadow: 2px -3px 19px 37px rgba(0,0,0,0.83) inset;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.MainSection{
+  background-color: #000;
+  display: block;
+  padding-top: 10rem;
+}
+.MainSection>div{
+  height: 40rem;
+ 
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
+}
+.img-1{
+-webkit-box-shadow: inset 2px 2px 40px 26px #000000; 
+box-shadow: inset 2px 2px 40px 26px #000000;
+}
+.img-2{
+-webkit-box-shadow: inset 2px 2px 40px 26px #000000; 
+box-shadow: inset 2px 2px 40px 26px #000000;
+}
+.poster>img{
+  object-fit: contain;
+  width: 50%;
+  height: auto;
 }
