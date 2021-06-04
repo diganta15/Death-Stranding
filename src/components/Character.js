@@ -1,14 +1,22 @@
-import React from 'react';
-import Sam from "../images/1067874-min.png";
-const Character = ({mainClass}) => {
+import React,{useState} from 'react';
+
+const Character = ({mainClass, name,image}) => {
+
+  const [overlay, setOverlay] = useState(false);
+
     return (
-      
-        <div className={mainClass}>
-          <div className="overlay"></div>
-          <img src={Sam} alt="" />
-          <h1 className="character-name">Sam</h1>
-        </div>
-    
+      <div
+        className={mainClass}
+        onMouseEnter={() => {
+          setOverlay(true);
+        }}
+        onMouseLeave={() => {
+          setOverlay(false);
+        }}>
+        <div className={overlay ? "overlay" : null}></div>
+        <img src={image} alt="" />
+        {overlay ? <h1 className="character-name">{name}</h1> : null}
+      </div>
     );
 }
 

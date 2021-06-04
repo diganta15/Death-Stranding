@@ -1,7 +1,7 @@
 import React from "react";
 import Quite from "../images/60af476a87726.png";
 import Cliff from "../images/60af4e0d15a4b-min.jpg";
-import Poster from "../images/Layer1.png";
+import Poster from "../images/Layer1.jpg";
 const MainSection = () => {
   return (
     <div className="MainSection">
