@@ -51,6 +51,10 @@
  box-shadow: 2px -3px 19px 37px rgba(0,0,0,0.83) inset;
 -webkit-box-shadow: 2px -3px 19px 37px rgba(0,0,0,0.83) inset;
 -moz-box-shadow: 2px -3px 19px 37px rgba(0,0,0,0.83) inset;
+position: relative;
+}
+.home-float{
+  /* position: absolute; */
 }
 .MainSection{
   background-color: #000;
@@ -229,4 +233,11 @@ height: 40rem;
    box-shadow: 
         inset 0px 50px 20px -10px #000,
         inset 0px -50px 20px -10px #000; 
+}
+.player{
+  background-color: #000;
+}
+.player>div{
+  margin-left: 22rem;
+  background-color: #000;
 }

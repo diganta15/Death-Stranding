@@ -22,7 +22,7 @@ const ShowcaseTop = () => {
         <div
           className="image-container baby"
           style={{ backgroundImage: `url(${Baby})` }}>
-       
+            <p className="home-float">Home</p>
         </div>
       </div>
       <div className="kojima">
