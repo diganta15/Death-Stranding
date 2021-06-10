@@ -5,14 +5,20 @@ import Background from '../images/ytBack.jpeg'
 
 const Player = () => {
 
+  
 
     return (
-      <div className="player">
+      <div className="player" id="trailer">
         <ReactPlayer
           url="https://youtu.be/tCI396HyhbQ"
           volume={1}
           light={Background}
-        
+          config={{
+            youtube: {
+              preload: true,
+            }
+           
+          }}
         />
       </div>
     );

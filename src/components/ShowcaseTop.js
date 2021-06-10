@@ -7,7 +7,7 @@ import Logo from "../images/60af5117938bc-min.png";
 const ShowcaseTop = () => {
   return (
     <div className="showcase-top">
-      <div className="title">
+      <div className="title" id="#top">
      
         <div
           className="image-container name"
@@ -22,7 +22,8 @@ const ShowcaseTop = () => {
         <div
           className="image-container baby"
           style={{ backgroundImage: `url(${Baby})` }}>
-            <p className="home-float">Home</p>
+          <p className="float home-float"><a href="#top">Home</a></p>
+          
         </div>
       </div>
       <div className="kojima">

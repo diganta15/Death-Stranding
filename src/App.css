@@ -12,6 +12,9 @@
     height: 100%;
 }
 
+html{
+  scroll-behavior: smooth;
+}
 
 .kojima{
   display: block;
@@ -78,6 +81,8 @@ box-shadow: inset 2px 2px 40px 26px #000000;
 }
 .poster{
   padding: 8rem 20rem 2rem 20rem;
+  position: relative;
+  text-align: center;
 }
 .poster>img{
   object-fit: contain;
@@ -240,4 +245,88 @@ height: 40rem;
 .player>div{
   margin-left: 22rem;
   background-color: #000;
+}
+.baby{
+  position: relative;
+  text-align: center;
+}
+.float{
+  position: absolute;
+  
+
+  cursor: pointer;
+}
+.float>a{
+  color: rgb(122, 181, 242);
+  text-decoration: none;
+  
+}
+.float>a:hover{
+  text-shadow: -2px 0px 9px rgba(122, 181, 242, 1);
+}
+.home-float{
+    bottom: 0rem;
+ left: 49%;
+}
+.float-trailer{
+left: 4rem;
+
+}
+.MainSection .img-1{
+  position: relative;
+}
+.float-name{
+  font-family: 'Gothic A1',serif;
+  font-size: 2rem;
+  left: 43%;
+  color: #fff;
+}
+.float-quote{
+  left: 2rem;
+    font-family: 'Gothic A1',serif;
+  font-size: 1.4rem;
+  top: 18rem;
+  color: #fff;
+}
+.bottom-links{
+  bottom: 0rem;
+}
+.youtube{
+  left: 10rem;
+}
+.instagram{
+  left: 30rem;
+}
+.site{
+  right: 10rem;
+}
+.twitter{
+  right: 30rem;
+}
+.order{
+  top: 9rem;
+  left: 36.5rem;
+  color: #fff;
+  font-size: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(0, 0, 0,0.6);
+  padding: 0.4rem;
+  border: 1px solid  rgba(122, 181, 242, 1);
+}
+.order:hover{
+  box-shadow: 0px 0px 23px 8px rgba(122, 181, 242, 1);
+-webkit-box-shadow: 0px 0px 23px 8px rgba(122, 181, 242, 1);
+-moz-box-shadow: 0px 0px 23px 8px rgba(122, 181, 242, 1);
+}
+.characters{
+  position: relative;
+}
+.characters-float{
+ left: 46%;
+  top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  color:rgba(122, 181, 242, 1) ;
+    text-shadow: -2px 0px 9px rgba(122, 181, 242, 1);
 }

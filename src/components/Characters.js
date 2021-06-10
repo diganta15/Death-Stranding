@@ -119,6 +119,7 @@ const Characters = () => {
 
   return (
     <div className="characters">
+      <div className="float characters-float">Characters</div>
       <div
         className="group-display"
         style={{ backgroundImage: `url(${Group})` }}></div>
