@@ -11,10 +11,10 @@ const MainSection = () => {
         <p className="float float-trailer"><i className="fa fa-play"></i><a href="#trailer">Trailer</a></p>
         <p className="float float-name">Death <br /> Stranding</p>
         <p className="float float-quote">Tomorrow <br /> is up to you</p>
-        <p className="float bottom-links youtube"><a href="https://www.youtube.com/channel/UC6lUqvh42Oc3XL19Edgd9QA" target="_blank">Youtube</a></p>
-        <p className="float bottom-links instagram"><a href="https://www.instagram.com/kojipro2015_official/" target="_blank">Instagram</a></p>
-        <p className="float bottom-links twitter"><a href="https://twitter.com/KojiPro2015_EN" target="_blank">Twitter</a></p>
-        <p className="float bottom-links site"><a href="http://www.kojimaproductions.jp/" target="_blank">A Hideo Kojima Game</a></p>
+        <p className="float bottom-links youtube" ><a href="https://www.youtube.com/channel/UC6lUqvh42Oc3XL19Edgd9QA" rel="noreferrer" target="_blank">Youtube</a></p>
+        <p className="float bottom-links instagram" ><a href="https://www.instagram.com/kojipro2015_official/" rel="noreferrer" target="_blank">Instagram</a></p>
+        <p className="float bottom-links twitter" ><a href="https://twitter.com/KojiPro2015_EN" rel="noreferrer" target="_blank">Twitter</a></p>
+        <p className="float bottom-links site" ><a href="http://www.kojimaproductions.jp/" rel="noreferrer" target="_blank">A Hideo Kojima Game</a></p>
         </div>
       <div
         className="img-2 images"
@@ -23,7 +23,7 @@ const MainSection = () => {
         </div>
         <div className="poster">
             <img src={Poster} alt="Poster" />
-        <p className="float order"><a href="https://store.steampowered.com/app/1190460/DEATH_STRANDING/" target="_blank">Order Now</a></p>
+        <p className="float order"><a href="https://store.steampowered.com/app/1190460/DEATH_STRANDING/" rel="noreferrer" target="_blank" >Order Now</a></p>
         </div>
     </div>
   );
