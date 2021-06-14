@@ -219,6 +219,7 @@ height: 40rem;
   background-size: cover;
   position: relative;
   text-align: center;
+  cursor: pointer;
 }
 
 .container .name{
@@ -331,6 +332,25 @@ left: 4rem;
     text-shadow: -2px 0px 9px rgba(122, 181, 242, 1);
 }
 
+@media only screen and (max-width: 1920px){
+ body{
+   
+ }
+ .image-container{
+   height: 50rem;
+ }
+ .order{
+   left: 42rem;
+   
+ }
+ .characters-float{
+   left: 47.5%;
+ }
+ .player>div{
+   margin-left: 27.5rem;
+ }
+}
+
 @media only screen and (max-width: 1020px) {
   
   .showcase-top{
@@ -432,8 +452,12 @@ body {
 } 
 @media only screen and (max-width: 380px){
 body {
-    background-color: greenyellow;
+    background-color: #000;
     width: 100%;
+  }
+  .showcase-top{
+    padding-top: 0rem !important;
+  
   }
   .image-container{
     width: 100%;
@@ -485,14 +509,27 @@ body {
     margin: 5rem 0rem;
   }
   .casts .background{
-    height: 36rem;
+    height: 30rem;
   }
-  .cast .container{
-    height: 16rem;
-  }
+
+  
   .inner-content{
+    display: flex !important;
+    /* flex-direction: column !important; */
+    justify-content: space-around !important;
     margin-left: 1rem;
     margin-right: 1rem;
+  }
+  .cast .container{
+    height: 8rem;
+    width: 6rem;
+  }
+  .container .name{
+    font-size: 10px;
+  }
+  .inner-content{
+    margin-left: 10px;
+    margin-right: 10px;
   }
   .player>div{
     margin-left: 0.1rem;
@@ -507,9 +544,17 @@ body {
     background-repeat: no-repeat;
     height: 20rem;
   }
+  .btn{
+    top: 50rem !important;
+  }
   /* .char-flex{
     height: 60rem;
   } */
+  .baby{
+    background-size: contain !important;
+    background-repeat: no-repeat;
+    height: 14rem !important;
+  }
   .char-flex .char-grid{
     display: flex;
     flex-direction: column;
@@ -517,5 +562,11 @@ body {
   }
   .char-flex .char-grid>div{
     margin: 0px;
+  }
+  .footer-background{
+    background-size: contain !important;
+    background-repeat: no-repeat;
+    height: 16rem !important;
+    
   }
 } 

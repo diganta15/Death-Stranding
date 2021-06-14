@@ -12,7 +12,7 @@ const Cast = ({ image, name, link }) => {
       onMouseLeave={() => {
         setOverlay(false);
       }}>
-      <a href="https://google.com">
+     
         <div className="container" style={{ backgroundImage: `url(${image})` }}>
           {overlay ? (
             <React.Fragment>
@@ -21,7 +21,7 @@ const Cast = ({ image, name, link }) => {
             </React.Fragment>
           ) : null}
         </div>
-      </a>
+      
     </div>
   );
 };
