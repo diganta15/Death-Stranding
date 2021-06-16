@@ -331,6 +331,18 @@ left: 4rem;
   color:rgba(122, 181, 242, 1) ;
     text-shadow: -2px 0px 9px rgba(122, 181, 242, 1);
 }
+.detail{
+}
+.detail .header{
+  margin-top: 6rem;
+  text-align: center;
+}
+.detail-text{
+  margin-top: 6rem;
+  margin-left: 36rem;
+  margin-right: 36rem;
+  text-align: justify;
+}
 
 @media only screen and (max-width: 1920px){
  body{
