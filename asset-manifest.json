@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Death-Stranding/static/css/main.d7375aa3.chunk.css",
-    "main.js": "/Death-Stranding/static/js/main.a696171c.chunk.js",
-    "main.js.map": "/Death-Stranding/static/js/main.a696171c.chunk.js.map",
-    "runtime-main.js": "/Death-Stranding/static/js/runtime-main.4ce5e40d.js",
-    "runtime-main.js.map": "/Death-Stranding/static/js/runtime-main.4ce5e40d.js.map",
-    "static/js/2.67e6446a.chunk.js": "/Death-Stranding/static/js/2.67e6446a.chunk.js",
-    "static/js/2.67e6446a.chunk.js.map": "/Death-Stranding/static/js/2.67e6446a.chunk.js.map",
-    "static/js/3.58733dcf.chunk.js": "/Death-Stranding/static/js/3.58733dcf.chunk.js",
-    "static/js/3.58733dcf.chunk.js.map": "/Death-Stranding/static/js/3.58733dcf.chunk.js.map",
+    "main.js": "/Death-Stranding/static/js/main.412afe52.chunk.js",
+    "main.js.map": "/Death-Stranding/static/js/main.412afe52.chunk.js.map",
+    "runtime-main.js": "/Death-Stranding/static/js/runtime-main.a9561c25.js",
+    "runtime-main.js.map": "/Death-Stranding/static/js/runtime-main.a9561c25.js.map",
+    "static/js/2.349f10ed.chunk.js": "/Death-Stranding/static/js/2.349f10ed.chunk.js",
+    "static/js/2.349f10ed.chunk.js.map": "/Death-Stranding/static/js/2.349f10ed.chunk.js.map",
+    "static/js/3.8f1ef6bd.chunk.js": "/Death-Stranding/static/js/3.8f1ef6bd.chunk.js",
+    "static/js/3.8f1ef6bd.chunk.js.map": "/Death-Stranding/static/js/3.8f1ef6bd.chunk.js.map",
     "index.html": "/Death-Stranding/index.html",
     "static/css/main.d7375aa3.chunk.css.map": "/Death-Stranding/static/css/main.d7375aa3.chunk.css.map",
-    "static/js/2.67e6446a.chunk.js.LICENSE.txt": "/Death-Stranding/static/js/2.67e6446a.chunk.js.LICENSE.txt",
+    "static/js/2.349f10ed.chunk.js.LICENSE.txt": "/Death-Stranding/static/js/2.349f10ed.chunk.js.LICENSE.txt",
     "static/media/1067874-min.95b43fa5.png": "/Death-Stranding/static/media/1067874-min.95b43fa5.png",
     "static/media/60af476a87726.0e512fb2.png": "/Death-Stranding/static/media/60af476a87726.0e512fb2.png",
     "static/media/60af4e0d15a4b-min.a5431150.jpg": "/Death-Stranding/static/media/60af4e0d15a4b-min.a5431150.jpg",
@@ -37,9 +37,9 @@
     "static/media/ytBack.3c3e963a.jpeg": "/Death-Stranding/static/media/ytBack.3c3e963a.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.4ce5e40d.js",
-    "static/js/2.67e6446a.chunk.js",
+    "static/js/runtime-main.a9561c25.js",
+    "static/js/2.349f10ed.chunk.js",
     "static/css/main.d7375aa3.chunk.css",
-    "static/js/main.a696171c.chunk.js"
+    "static/js/main.412afe52.chunk.js"
   ]
 }
